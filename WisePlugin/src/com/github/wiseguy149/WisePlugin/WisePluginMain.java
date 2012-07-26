@@ -15,12 +15,12 @@ public class WisePluginMain extends JavaPlugin
 		getCommand("basic").setExecutor(myExecutor);
 		getCommand("basic2").setExecutor(myExecutor);
 		
-		getLogger().info("WisePlugin enabled!");
+		getLogger().info("WisePlugin enabled BETTER!");
 	}
 
 	public void onDisable()
 	{
-		getLogger().info("WisePlugin disabled.");
+		getLogger().info("WisePlugin disabled.  Goodbye!");
 	}
 
 }
