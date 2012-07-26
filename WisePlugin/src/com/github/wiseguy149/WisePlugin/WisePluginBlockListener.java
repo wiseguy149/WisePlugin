@@ -23,8 +23,12 @@ public class WisePluginBlockListener implements Listener {
                 String name = player.getName();
                 Block block = event.getBlock();
                 Material mat = block.getType();
+                String matName = mat.toString().toLowerCase();
                 
                 if(myPlugin.stalkMessage(name))
-                	player.sendMessage(ChatColor.DARK_PURPLE + "Hey " + name + ", I see you placed a " + mat + " block there.");
+                {
+                	player.sendMessage(ChatColor.DARK_PURPLE + "Hey " + name + ", I see you placed a " + matName + " block there.");
+                	player.sendMessage(ChatColor.DARK_PURPLE + "Watcha doin with that?");
+                }
         }
 }

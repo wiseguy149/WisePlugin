@@ -28,7 +28,7 @@ public class WisePluginMain extends JavaPlugin
 		this.myListener = new WisePluginBlockListener(this);
 		getServer().getPluginManager().registerEvents(myListener, this);
 		
-		commentChance = 50; //in 100
+		commentChance = 5; //in 100
 		commentRand = new Random();
 		map = new HashMap<String, Boolean>(Bukkit.getServer().getMaxPlayers());
 		
