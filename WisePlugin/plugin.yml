@@ -1,0 +1,3 @@
+name: WisePlugin
+main: com.github.wiseguy149.WisePlugin.WisePluginMain
+version: 1
